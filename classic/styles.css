@@ -2672,3 +2672,10 @@ footer {
     left: -45px;
   }
 }
+
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
