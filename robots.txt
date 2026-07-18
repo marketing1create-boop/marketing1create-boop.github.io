@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marketing1create-boop.github.io/sitemap.xml
