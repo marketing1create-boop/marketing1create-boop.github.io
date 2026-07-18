@@ -2642,3 +2642,33 @@ footer {
     display: flex;
   }
 }
+/* Исправления мобильной версии */
+@media (max-width: 760px) {
+  .eyebrow > span {
+    display: none !important;
+    box-shadow: none !important;
+  }
+
+  .callout-card {
+    width: 128px;
+    padding: 7px 8px;
+    opacity: 1 !important;
+    pointer-events: none;
+  }
+
+  .callout-battery .callout-card {
+    left: -130px;
+  }
+
+  .callout-software .callout-card {
+    left: -95px;
+  }
+
+  .callout-charging .callout-card {
+    left: -128px;
+  }
+
+  .callout-chassis .callout-card {
+    left: -45px;
+  }
+}
